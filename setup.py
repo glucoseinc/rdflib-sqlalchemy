@@ -86,7 +86,7 @@ config = dict(
     test_suite="test",
     entry_points={
         'rdf.plugins.store': [
-            'SQLAlchemy = rdflib_sqlalchemy.SQLAlchemy:SQLAlchemy',
+            # 'SQLAlchemy = rdflib_sqlalchemy.SQLAlchemy:SQLAlchemy',
             # 'SQLAlchemyBase = rdflib_sqlalchemy.SQLAlchemyBase:SQLAlchemy',
         ],
     }
